@@ -1,0 +1,294 @@
+restaurant_name,name,award,price,cuisine,latitude,longitude,matched_sfa_name,hygiene_grade
+quenino,Quenino,Selected Restaurants,$$$,Innovative,1.305775,103.827019,,
+sushi hare,Sushi Hare,Selected Restaurants,$$$,Sushi,1.2803986,103.8480017,tatsu sushi (s) pte ltd,A
+na oh,Na Oh,Selected Restaurants,$$,Korean Contemporary,1.3530609,103.7117347,kko kko na ra pte. ltd.,B
+bhoomi,Bhoomi,Selected Restaurants,$$,Indian,1.307339,103.829378,,
+ichigo ichie,Ichigo Ichie,Selected Restaurants,$$$,Japanese,1.3075812,103.8285169,,
+latido,Latido,Selected Restaurants,$$,"Colombian, Contemporary",1.27834,103.84433,,
+iru den,Iru Den,Selected Restaurants,$$$,Taiwanese contemporary,1.3107446,103.8342928,,
+l’antica pizzeria da michele,L’Antica Pizzeria da Michele,Selected Restaurants,$$,Pizza,1.282597,103.846653,tian tian fisherman's pier seafood restaurant p l,B
+sin heng claypot bak koot teh,Sin Heng Claypot Bak Koot Teh,Bib Gourmand,$$,Singaporean,1.3073313,103.9043627,hao heng pte. ltd.,
+san xiang rou cuo mian,San Xiang Rou Cuo Mian,Selected Restaurants,$,Street Food,1.2868787,103.8084765,jia xiang kuching food supplies pte. ltd.,A
+long kee wanton noodle,Long Kee Wanton Noodle,Selected Restaurants,$,Street Food,1.349814,103.7184486,yu kee duck and noodle house pte. ltd.,A
+kang le fishball noodles,Kang Le Fishball Noodles,Selected Restaurants,$,Street Food,1.3496779,103.7184954,le sen pte. ltd.,A
+omakase @ stevens,Omakase @ Stevens,1 Star,$$$$,Innovative,1.3137694,103.8286826,blue lotus @ stevens pte ltd,
+jungle,Jungle,Bib Gourmand,$$,Thai,1.281413,103.8453743,jungle enterprise pte ltd,A
+sospiri,Sospiri,Selected Restaurants,$$,Italian,1.2800227,103.8513486,,
+to-ricos kway chap,To-Ricos Kway Chap,Bib Gourmand,$,Street Food,1.3083574,103.8857344,original hock lam street beef kway teow pte. ltd.,A
+nam sing hokkien fried mee,Nam Sing Hokkien Fried Mee,Bib Gourmand,$,Street Food,1.30825,103.88579,sing hk pte ltd,B
+lao fu zi fried kway teow,Lao Fu Zi Fried Kway Teow,Bib Gourmand,$,Street Food,1.3080902,103.8856982,guo fu  pte ltd,A
+kotuwa,Kotuwa,Bib Gourmand,$$,Sri Lankan,1.2929748,103.8388373,,
+da shi jia big prawn mee,Da Shi Jia Big Prawn Mee,Bib Gourmand,$,Singaporean,1.298469,103.8389954,jia xiang kuching food supplies pte. ltd.,A
+song kee teochew fish porridge,Song Kee Teochew Fish Porridge,Bib Gourmand,$,Street Food,1.311974,103.839442,wa kee pte. ltd.,
+wok hei hor fun,Wok Hei Hor Fun,Bib Gourmand,$,Street Food,1.2874024,103.8183527,marina bay mini wok pte ltd,A
+han kee,Han Kee,Bib Gourmand,$,Street Food,1.2796254,103.8467276,han holding company pte. ltd.,A
+chai chuan tou yang rou tang,Chai Chuan Tou Yang Rou Tang,Bib Gourmand,$,Street Food,1.2856243,103.8220326,tang yaqi,B
+un-yang-kor-dai,Un-Yang-Kor-Dai,Bib Gourmand,$$,Thai,1.2872095,103.8483084,big family shi dai pte. ltd.,B
+eminent frog porridge & seafood (lor 19),Eminent Frog Porridge & Seafood (Lor 19),Bib Gourmand,$,Street Food,1.3127778,103.8792564,tao seafood asia (pte ltd),A
+hong kong yummy soup,Hong Kong Yummy Soup,Bib Gourmand,$,Street Food,1.2863998,103.8044992,guan chee hong kong roasted duck pte. ltd.,A
+kitchenman nasi lemak,Kitchenman Nasi Lemak,Bib Gourmand,$,Malaysian,1.3120852,103.8628154,yanti nasi padang restaurant pte ltd,B
+fico,Fico,Bib Gourmand,$$,Italian,1.3105224,103.9463853,,
+no.18 zion road fried kway teow,No.18 Zion Road Fried Kway Teow,Bib Gourmand,$,Street Food,1.292604,103.8312625,authentic hock lam street popular beef kuay teow pte ltd,A
+zhi wei xian zion road big prawn noodle,Zhi Wei Xian Zion Road Big Prawn Noodle,Bib Gourmand,$,Street Food,1.2924249,103.8312898,zion remnant pte. ltd.,A
+chey sua carrot cake,Chey Sua Carrot Cake,Bib Gourmand,$,Street Food,1.3380791,103.8447178,han's cafe & cake house pte. ltd.,A
+zai shun curry fish head,Zai Shun Curry Fish Head,Bib Gourmand,$,Street Food,1.343888,103.73722,zai shun curry fish head pte. ltd.,B
+heng heng cooked food,Heng Heng Cooked Food,Bib Gourmand,$,Street Food,1.343566,103.7380985,ng heng,A
+koh brother pig's organ soup,Koh Brother Pig's Organ Soup,Bib Gourmand,$,Street Food,1.2850432,103.832764,soup fair pte. ltd.,A
+tiong bahru hainanese boneless chicken rice,Tiong Bahru Hainanese Boneless Chicken Rice,Bib Gourmand,$,Street Food,1.2846286,103.832596,thunder tea rice pte ltd,B
+lian he ben ji claypot,Lian He Ben Ji Claypot,Bib Gourmand,$,Street Food,1.2821566,103.8433055,chuan yang ji mutton soup steamboat pte. ltd.,B
+song fish soup,Song Fish Soup,Bib Gourmand,$,Street Food,1.313468,103.76461,the soup spoon pte ltd,A
+bahrakath mutton soup,Bahrakath Mutton Soup,Bib Gourmand,$,Street Food,1.324031,103.814139,soup restaurant singapore pte. ltd.,A
+heng kee,Heng Kee,Bib Gourmand,$,Street Food,1.2851492,103.8457218,ng kee heng,B
+ru ji kitchen,Ru Ji Kitchen,Bib Gourmand,$,Street Food,1.3081582,103.7928826,kitchen language pte. ltd.,A
+hong heng fried sotong prawn mee,Hong Heng Fried Sotong Prawn Mee,Bib Gourmand,$,Street Food,1.2849649,103.8327193,ng heng,A
+hai nan zai,Hai Nan Zai,Bib Gourmand,$,Street Food,1.4318206,103.8279671,yechun xiao jiang nan restaurant group pte. ltd.,A
+joo siah bak koot teh,Joo Siah Bak Koot Teh,Bib Gourmand,$,Street Food,1.3445639,103.7313626,old street bak kut teh (fn) pte. ltd.,A
+whole earth,Whole Earth,Bib Gourmand,$$,Vegetarian,1.2772625,103.8446935,the whole earth pte ltd,A
+kelantan kway chap · pig organ soup,Kelantan Kway Chap · Pig Organ Soup,Bib Gourmand,$,Street Food,1.3073595,103.85674,the soup spoon pte ltd,A
+boon tong kee (balestier road),Boon Tong Kee (Balestier Road),Bib Gourmand,$,Singaporean,1.3255796,103.8495,tan boon chai,
+the coconut club (beach road),The Coconut Club (Beach Road),Bib Gourmand,$$,Malaysian,1.3006534,103.8601437,gardens by the bay,A
+jian bo tiong bahru shui kueh,Jian Bo Tiong Bahru Shui Kueh,Bib Gourmand,$,Street Food,1.3492969,103.7183594,mah hock tiong,B
+lai heng handmade teochew kueh,Lai Heng Handmade Teochew Kueh,Bib Gourmand,$,Street Food,1.3452103,103.7310891,sutopo lai hwa kensy,B
+kwang kee teochew fish porridge,Kwang Kee Teochew Fish Porridge,Bib Gourmand,$,Street Food,1.3118717,103.8393125,wa kee pte. ltd.,
+fei fei roasted • noodle,Fei Fei Roasted • Noodle,Bib Gourmand,$,Street Food,1.3436537,103.7376562,yu kee duck and noodle house pte. ltd.,A
+true blue cuisine,True Blue Cuisine,Bib Gourmand,$$,Peranakan,1.2945379,103.8494194,imperial treasure cantonese cuisine pte. ltd.,A
+anglo indian (shenton way),Anglo Indian (Shenton Way),Bib Gourmand,$$,Indian,1.279361,103.85043,omar shariff authentic indian cuisine pte.ltd.,A
+indocafé,Indocafé,Bib Gourmand,$$,Peranakan,1.3110605,103.8356878,,
+kok sen,Kok Sen,Bib Gourmand,$$,Singaporean,1.2802718,103.841681,wong kok sen,B
+zhup zhup,Zhup Zhup,Bib Gourmand,$,Noodles,1.3319636,103.8824999,,
+beach road fish head bee hoon,Beach Road Fish Head Bee Hoon,Bib Gourmand,$,Street Food,1.3232442,103.8548346,lim bee kian annie,A
+margaret drive sin kee chicken rice,Margaret Drive Sin Kee Chicken Rice,Bib Gourmand,$,Street Food,1.3082682,103.7929491,hock kee f&b pte. ltd.,A
+heng,Heng,Bib Gourmand,$,Street Food,1.3120674,103.8393122,swee heng bakery pte ltd,
+jalan sultan prawn mee,Jalan Sultan Prawn Mee,Bib Gourmand,$,Street Food,1.3111924,103.8727709,jalan sultan prawn mee pte ltd,
+yhingthai palace,Yhingthai Palace,Bib Gourmand,$$,Thai,1.29648,103.85497,yan palace restaurant holdings pte ltd,B
+somma,Somma,Selected Restaurants,$$$,Innovative,1.292765,103.838817,sawangsi sommai @ ninnam sommai,B
+hougang traditional famous wanton noodle,Hougang Traditional Famous Wanton Noodle,Selected Restaurants,$,Street Food,1.3083056,103.8855917,liao fan hk soya sauce chicken rice & noodle (chinatown) pte. ltd.,A
+sushi ryujiro,Sushi Ryujiro,Selected Restaurants,$$$$,Sushi,1.306797,103.83133,tatsu sushi (s) pte ltd,A
+solo,Solo,Selected Restaurants,$$,Italian,1.2806216,103.8469554,bengawan solo pte ltd,A
+song fa bak kut teh (new bridge road),Song Fa Bak Kut Teh (New Bridge Road),Bib Gourmand,$,Singaporean,1.2890223,103.8477147,wang dae bak pte ltd,B
+mp thai (vision exchange),MP Thai (Vision Exchange),Bib Gourmand,$$,Thai,1.329991,103.744593,thai kha pte ltd,A
+kwee heng,Kwee Heng,Bib Gourmand,$,Street Food,1.312026,103.8395432,heng kwee sim,B
+delhi lahori,Delhi Lahori,Bib Gourmand,$,Street Food,1.3064407,103.8507102,delhi express pte. ltd.,B
+soh kee cooked food,Soh Kee Cooked Food,Bib Gourmand,$,Street Food,1.3498361,103.7184176,ho heng food & enterprise pte. ltd.,A
+chuan kee boneless braised duck,Chuan Kee Boneless Braised Duck,Bib Gourmand,$,Street Food,1.3110244,103.788126,albert law sze chuan,B
+sin huat seafood restaurant,Sin Huat Seafood Restaurant,Bib Gourmand,$$,Street Food,1.314489,103.8885,imperial treasure fine dining restaurant pte. ltd.,A
+tian tian hainanese chicken rice,Tian Tian Hainanese Chicken Rice,Bib Gourmand,$,Street Food,1.2804903,103.8448118,chua tian loke,A
+tai wah pork noodle,Tai Wah Pork Noodle,Bib Gourmand,$,Street Food,1.2852332,103.8457532,yu kee duck and noodle house pte. ltd.,A
+outram park fried kway teow mee,Outram Park Fried Kway Teow Mee,Bib Gourmand,$,Street Food,1.2851585,103.8457139,authentic hock lam street popular beef kuay teow pte ltd,A
+hoo kee bak chang,Hoo Kee Bak Chang,Bib Gourmand,$,Street Food,1.2789952,103.8466824,hoo kee bak chang pte ltd,A
+ar er soup,Ar Er Soup,Bib Gourmand,$,Street Food,1.2868701,103.8081238,the soup spoon pte ltd,A
+jason penang cuisine,Jason Penang Cuisine,Bib Gourmand,$,Street Food,1.2869092,103.8081365,imperial treasure cantonese cuisine pte. ltd.,A
+spinach soup,Spinach Soup,Bib Gourmand,$,Street Food,1.32144,103.870173,the soup spoon pte ltd,A
+a noodle story,A Noodle Story,Bib Gourmand,$,Street Food,1.2790364,103.8464494,artemis fine foods a.s. pte ltd,A
+tai seng fish soup,Tai Seng Fish Soup,Bib Gourmand,$,Street Food,1.3348723,103.7215061,soup restaurant singapore pte. ltd.,A
+dudu cooked food,Dudu Cooked Food,Bib Gourmand,$,Street Food,1.3494,103.71848,ho heng food & enterprise pte. ltd.,A
+hai nan xing zhou beef noodle,Hai Nan Xing Zhou Beef Noodle,Bib Gourmand,$,Street Food,1.3355032,103.857018,nan siong leng,A
+fu ming cooked food,Fu Ming Cooked Food,Bib Gourmand,$,Street Food,1.2874936,103.8183732,ho heng food & enterprise pte. ltd.,A
+na na curry,Na Na Curry,Bib Gourmand,$,Street Food,1.285599,103.82203,lau di fang scissors-cut curry rice pte. ltd.,A
+new lucky claypot rice,New Lucky Claypot Rice,Bib Gourmand,$,Street Food,1.3083243,103.7929898,lau di fang scissors-cut curry rice pte. ltd.,A
+ji de lai hainanese chicken rice,Ji De Lai Hainanese Chicken Rice,Bib Gourmand,$,Street Food,1.4319385,103.8279349,qi ji bistro pte. ltd.,A
+chef kang's noodle house,Chef Kang's Noodle House,Bib Gourmand,$,Street Food,1.3372466,103.8485929,yu kee duck and noodle house pte. ltd.,A
+alliance seafood,Alliance Seafood,Bib Gourmand,$,Street Food,1.3121151,103.8395393,seafood paradise (s) pte. ltd.,A
+ji ji noodle house,Ji Ji Noodle House,Bib Gourmand,$,Street Food,1.2851692,103.8457399,ji ji noodle house pte. ltd.,
+j2 famous crispy curry puff,J2 Famous Crispy Curry Puff,Bib Gourmand,$,Street Food,1.2796129,103.8468008,lau di fang scissors-cut curry rice pte. ltd.,A
+bismillah biryani (little india),Bismillah Biryani (Little India),Bib Gourmand,$,Street Food,1.304989,103.8536,little fella pte ltd,A
+sik bao sin,Sik Bao Sin,Bib Gourmand,$$,Singaporean,1.314127,103.8878,sik bao sin eating house (desmond's creation) pte ltd,A
+muthu's curry,Muthu's Curry,Bib Gourmand,$$,Indian,1.30965,103.85204,seafood paradise (s) pte. ltd.,A
+the blue ginger,The Blue Ginger,Bib Gourmand,$$,Peranakan,1.2774155,103.8436792,the exchange asia square pte ltd,A
+cheok kee,Cheok Kee,Bib Gourmand,$,Street Food,1.32144,103.870173,yu kee duck and noodle house pte. ltd.,A
+singapore fried hokkien mee,Singapore Fried Hokkien Mee,Bib Gourmand,$,Street Food,1.3230892,103.8549053,nutrition depot singapore private limited,A
+lagnaa,Lagnaa,Bib Gourmand,$$,Indian,1.306444,103.8522508,,
+cumi bali,Cumi Bali,Bib Gourmand,$$,Indonesian,1.2781933,103.8442371,bali angel's pte. ltd.,A
+yong chun wan ton noodle,Yong Chun Wan Ton Noodle,Bib Gourmand,$,Street Food,1.285599,103.82203,yu kee duck and noodle house pte. ltd.,A
+lixin teochew fishball noodles,Lixin Teochew Fishball Noodles,Bib Gourmand,$,Street Food,1.3352759,103.8569441,the noodles pte. ltd.,A
+hui wei chilli ban mian,Hui Wei Chilli Ban Mian,Bib Gourmand,$,Street Food,1.32144,103.870173,ma wei,B
+selamat datang warong pak sapari,Selamat Datang Warong Pak Sapari,Bib Gourmand,$,Street Food,1.324031,103.814139,aidah bte selamat,B
+adam rd noo cheng big prawn noodle,Adam Rd Noo Cheng Big Prawn Noodle,Bib Gourmand,$,Street Food,1.324031,103.814139,loy kok cheng,B
+soon huat,Soon Huat,Bib Gourmand,$,Street Food,1.3058048,103.8636367,teo soon huat,
+podi & poriyal,Podi & Poriyal,Selected Restaurants,$$,Indian Vegetarian,1.3139174,103.857202,,
+maison boulud,Maison Boulud,Selected Restaurants,$$,French,1.2852929,103.8607,maison kayser (singapore) pte. ltd.,A
+feng zhen lor mee,Feng Zhen Lor Mee,Selected Restaurants,$,Street Food,1.3349205,103.7213881,zhen neng zhu lamian pte. ltd.,A
+ishizawa,Ishizawa,Selected Restaurants,$$$$,Sushi,1.2951613,103.853512,,
+ammākase,Ammākase,Selected Restaurants,$$$,Indian,1.284513,103.851094,,
+the prince,The Prince,Selected Restaurants,$$,Middle Eastern,1.277961,103.844791,song of the prince pte. ltd.,B
+ki su,Ki Su,Selected Restaurants,$$,Vegetarian,1.2778193,103.8441991,genki sushi singapore pte. ltd.,A
+sushi sato,Sushi Sato,Selected Restaurants,$$$,Sushi,1.304985,103.808433,tatsu sushi (s) pte ltd,A
+redhill pork porridge,Redhill Pork Porridge,Selected Restaurants,$,Street Food,1.2872772,103.8180805,ban heng teochew porridge (tanjong pagar) pte. ltd.,A
+jin hua,Jin Hua,Selected Restaurants,$,Street Food,1.3080902,103.8856982,cheng jin hua,
+nómada,Nómada,Selected Restaurants,$$,Spanish Contemporary,1.2789693,103.8415477,,
+yong kee claypot bak kut teh,Yong Kee Claypot Bak Kut Teh,Selected Restaurants,$,Street Food,1.3345193,103.7214706,wa kee pte. ltd.,
+yong xiang xing tou fu,Yong Xiang Xing Tou Fu,Selected Restaurants,$,Street Food,1.2851661,103.8425425,jia xiang kuching food supplies pte. ltd.,A
+hoe kee kitchen,Hoe Kee Kitchen,Selected Restaurants,$,Street Food,1.3499648,103.7184122,kitchen language pte. ltd.,A
+xing yun hainanese boneless chicken rice,Xing Yun Hainanese Boneless Chicken Rice,Selected Restaurants,$,Street Food,1.3452585,103.7313252,thunder tea rice pte ltd,B
+bedok chwee kueh,Bedok Chwee Kueh,Selected Restaurants,$,Street Food,1.3249411,103.9306756,kueh boon huat (guo wenfa),
+chung cheng,Chung Cheng,Selected Restaurants,$,Street Food,1.3033256,103.8639165,chung cheng high school,
+tiong bahru lien fa shui jing pau,Tiong Bahru Lien Fa Shui Jing Pau,Selected Restaurants,$,Street Food,1.284671,103.8326,mah hock tiong,B
+pondok makan indonesia,Pondok Makan Indonesia,Selected Restaurants,$,Street Food,1.3013262,103.8538666,shaik abdul kader al-jailani makan place pte. ltd.,
+shang palace,Shang Palace,Selected Restaurants,$$,Cantonese,1.3111984,103.8265468,palace marina pte. ltd.,
+min jiang at dempsey,Min Jiang at Dempsey,Selected Restaurants,$$,"Cantonese, Sichuan",1.3049401,103.8083222,sun at food singapore pte. ltd.,A
+bar-roque grill,Bar-Roque Grill,Selected Restaurants,$$,European,1.2755732,103.843511,26@marina bar & bistro pte ltd,B
+ushidoki wagyu kaiseki,Ushidoki Wagyu Kaiseki,Selected Restaurants,$$$$,Japanese,1.2780323,103.8444829,yu kai,B
+yong fu,Yong Fu,Selected Restaurants,$$$$,Ningbo,1.2951461,103.8576472,fu lin group pte. ltd.,A
+545 whampoa prawn noodles,545 Whampoa Prawn Noodles,Selected Restaurants,$,Street Food,1.3059012,103.8504528,geylang prawn noodle (timbre+) pte ltd,A
+vue,Vue,Selected Restaurants,$$$,European Contemporary,1.2830712,103.85301,,
+ghim moh chwee kueh,Ghim Moh Chwee Kueh,Selected Restaurants,$,Street Food,1.3110349,103.7882915,tan moh lee,B
+shi le yuan,Shi Le Yuan,Selected Restaurants,$,Street Food,1.2873967,103.818244,jia jia le cuisine f & b pte. ltd.,A
+come daily fried hokkien prawn mee,Come Daily Fried Hokkien Prawn Mee,Selected Restaurants,$,Street Food,1.3381846,103.8447186,the daily cut pte. ltd.,A
+wah lok,Wah Lok,Selected Restaurants,$$,Cantonese,1.295806,103.8523,ting yee wah,A
+tunglok heen,Tunglok Heen,Selected Restaurants,$$,Cantonese,1.2548974,103.820172,,
+olivia,Olivia,Selected Restaurants,$$,Spanish,1.2807626,103.8416376,big bang olivia & co. pte. ltd.,A
+yì by jereme leung,Yì By Jereme Leung,Selected Restaurants,$$,Chinese Contemporary,1.295585,103.8540095,y.e.s f & b group pte. ltd.,B
+jian bo shui kueh,Jian Bo Shui Kueh,Selected Restaurants,$,Street Food,1.2846506,103.83259,feng bo zhuang f & b pte ltd,B
+koka wanton noodles,Koka Wanton Noodles,Selected Restaurants,$,Street Food,1.3058048,103.8636367,red place's beef noodles pte. ltd.,B
+hill street fried kway teow,Hill Street Fried Kway Teow,Selected Restaurants,$,Street Food,1.3203783,103.9355949,authentic hock lam street popular beef kuay teow pte ltd,A
+hong peng la mian xiao long bao,Hong Peng La Mian Xiao Long Bao,Selected Restaurants,$,Street Food,1.2852868,103.8425969,leyau yen hong,A
+springleaf prata place (spring leaf garden),Springleaf Prata Place (Spring Leaf Garden),Selected Restaurants,$,Street Food,1.3971,103.81896,kai garden private limited,A
+lao jie fang,Lao Jie Fang,Selected Restaurants,$,Street Food,1.2932654,103.8028365,lau di fang scissors-cut curry rice pte. ltd.,A
+ah heng duck rice,Ah Heng Duck Rice,Selected Restaurants,$,Street Food,1.2851653,103.8457572,ho heng food & enterprise pte. ltd.,A
+spago dining room,Spago Dining Room,Selected Restaurants,$$,"Californian, Asian Contemporary",1.2839213,103.8590604,ycp dining singapore pte. ltd.,A
+buko nero,Buko Nero,Selected Restaurants,$$,Italian,1.277667,103.84357,buko nero cucina pte. ltd.,A
+majestic,Majestic,Selected Restaurants,$$,Cantonese,1.2780668,103.8528577,majestic seafood pte. ltd.,A
+torno subito,Torno Subito,Selected Restaurants,$$,Italian,1.3057499,103.8112763,,
+brasserie astoria,Brasserie Astoria,Selected Restaurants,$$,European Contemporary,1.28801,103.85171,,
+aunty oats pancake,Aunty Oats Pancake,Selected Restaurants,$,Street Food,1.3083574,103.8857344,the udder pancake (kilat) pte. ltd.,A
+mustard seed,Mustard Seed,Selected Restaurants,$$$,Singaporean,1.3630824,103.8711608,seed and soil pte ltd,A
+whampoa soya bean & grass jelly drinks,Whampoa Soya Bean & Grass Jelly Drinks,Selected Restaurants,$,Street Food,1.3228091,103.8551585,craft drinks pte. ltd.,A
+tow kwar pop,Tow Kwar Pop,Selected Restaurants,$,Street Food,1.2846506,103.83259,koh boon tow (xu wendao),A
+revolver,Revolver,Selected Restaurants,$$,Barbecue,1.2781226,103.8442476,,
+the 1950's coffee,The 1950's Coffee,Selected Restaurants,$,Street Food,1.2821578,103.8432905,seafood paradise (s) pte. ltd.,A
+yan ting,Yan Ting,Selected Restaurants,$$,Cantonese,1.305914,103.8259,ting yee wah,A
+keng eng kee (bukit merah),Keng Eng Kee (Bukit Merah),Selected Restaurants,$,Singaporean,1.2857642,103.8037043,seah siew eng,B
+hup kee teochew fishball mee,Hup Kee Teochew Fishball Mee,Selected Restaurants,$,Street Food,1.2932654,103.8028365,wa kee pte. ltd.,
+kang's wanton noodle,Kang's Wanton Noodle,Selected Restaurants,$,Street Food,1.29236,103.83122,artemis fine foods a.s. pte ltd,A
+shunsui,Shunsui,Selected Restaurants,$$$,Japanese,1.28762,103.84726,,
+food street fried kway teow mee,Food Street Fried Kway Teow Mee,Selected Restaurants,$,Street Food,1.2821551,103.8432905,taster food pte. ltd.,A
+hong wen mutton soup,Hong Wen Mutton Soup,Selected Restaurants,$,Street Food,1.3423709,103.7762553,guan chee hong kong roasted duck pte. ltd.,A
+huat heng fried oyster,Huat Heng Fried Oyster,Selected Restaurants,$,Street Food,1.3231563,103.8549835,ho heng food & enterprise pte. ltd.,A
+people's park hainanese chicken rice,People's Park Hainanese Chicken Rice,Selected Restaurants,$,Street Food,1.2851661,103.8425425,tatsu sushi (s) pte ltd,A
+c.m.y. satay,C.M.Y. Satay,Selected Restaurants,$,Street Food,1.2823914,103.8430927,c & j investment holdings pte. ltd.,A
+ah ter authentic teochew fish ball noodles,Ah Ter Authentic Teochew Fish Ball Noodles,Selected Restaurants,$,Street Food,1.2794786,103.8466829,arcade fish soup pte. ltd.,A
+lor 9 beef kway teow,Lor 9 Beef Kway Teow,Selected Restaurants,$,Street Food,1.312193,103.8767,authentic hock lam street popular beef kuay teow pte ltd,A
+garibaldi,Garibaldi,Selected Restaurants,$$,Italian,1.296564,103.855,garibaldi pte. ltd.,A
+fiz,Fiz,Selected Restaurants,$$$,"Malaysian, Contemporary",1.279692,103.844015,jufizza binte jumaat,A
+loong kee yong tau fu,Loong Kee Yong Tau Fu,Selected Restaurants,$,Street Food,1.3495894,103.7182191,yu kee duck and noodle house pte. ltd.,A
+hua xing bak kut teh,Hua Xing Bak Kut Teh,Selected Restaurants,$,Street Food,1.3452792,103.7313194,old street bak kut teh (fn) pte. ltd.,A
+nasi lemak ayam taliwang,Nasi Lemak Ayam Taliwang,Selected Restaurants,$,Street Food,1.4249952,103.8447273,yanti nasi padang restaurant pte ltd,B
+ivy's hainanese herbal mutton soup,Ivy's Hainanese Herbal Mutton Soup,Selected Restaurants,$,Street Food,1.2759467,103.7914178,the soup spoon pte ltd,A
+ah hock fried hokkien noodles,Ah Hock Fried Hokkien Noodles,Selected Restaurants,$,Street Food,1.3642542,103.8665402,gan hock lim,A
+heng gi goose and duck rice,Heng Gi Goose and Duck Rice,Selected Restaurants,$,Street Food,1.3056875,103.8505645,guan chee hong kong roasted duck pte. ltd.,A
+tien lai rice stall,Tien Lai Rice Stall,Selected Restaurants,$,Street Food,1.3347274,103.7214058,lau di fang scissors-cut curry rice pte. ltd.,A
+fatty ox hk kitchen,Fatty Ox HK Kitchen,Selected Restaurants,$,Street Food,1.2822034,103.8432932,the butcher's kitchen pte ltd,A
+birds of paradise (katong),Birds Of Paradise (Katong),Selected Restaurants,$,Street Food,1.3052429,103.9035725,national university of singapore society,A
+rojak‧popiah & cockle,Rojak‧Popiah & Cockle,Selected Restaurants,$,Street Food,1.2802878,103.844637,kway guan huat joo chiat popiah (since 1938) pte. ltd.,A
+91 fried kway teow mee,91 Fried Kway Teow Mee,Selected Restaurants,$,Street Food,1.3029121,103.8638813,authentic hock lam street popular beef kuay teow pte ltd,A
+traditional hakka lui cha,Traditional Hakka Lui Cha,Selected Restaurants,$,Street Food,1.3496022,103.7182959,shan cha pte ltd,A
+san shu gong (geylang),San Shu Gong (Geylang),Selected Restaurants,$$,"Teochew, Cantonese",1.3111829,103.8739285,san teck soon medical hall pte. ltd.,
+putien (kitchener road),Putien (Kitchener Road),Selected Restaurants,$$,Fujian,1.3095414,103.8574032,xixiang kaya kopitiam (robinson road) pte. ltd.,A
+sushi katori,Sushi Katori,Selected Restaurants,$$$$,Sushi,1.2795296,103.8441068,tatsu sushi (s) pte ltd,A
+zi jing cheng hainanese boneless chicken rice,Zi Jing Cheng Hainanese Boneless Chicken Rice,Selected Restaurants,$,Street Food,1.2862958,103.8045586,bee cheng hiang star pte. ltd.,
+fiamma,Fiamma,Selected Restaurants,$$$,Italian,1.2494097,103.8242699,,
+ye tang,Ye Tang,Selected Restaurants,$,Street Food,1.3424073,103.776255,yu tang clan pte ltd,B
+boon tong kee kway chap‧braised duck,Boon Tong Kee Kway Chap‧Braised Duck,Selected Restaurants,$,Street Food,1.2924249,103.8311181,hock kee f&b pte. ltd.,A
+lor mee 178,Lor Mee 178,Selected Restaurants,$,Street Food,1.2846377,103.8326,qiu lian ban mee pte ltd,B
+cheng heng kway chap and braised duck rice,Cheng Heng Kway Chap and Braised Duck Rice,Selected Restaurants,$,Street Food,1.3081707,103.7924893,ng heng,A
+imperial treasure super peking duck (paragon),Imperial Treasure Super Peking Duck (Paragon),Selected Restaurants,$$,Cantonese,1.303191,103.8354,super tea (s) pte. ltd.,A
+wakuda,Wakuda,Selected Restaurants,$$$,Japanese Contemporary,1.283879,103.8606805,,
+jiao cai seafood,Jiao Cai Seafood,Selected Restaurants,$,Street Food,1.4251958,103.8446508,seafood paradise (s) pte. ltd.,A
+poh cheu (kpt coffee shop),Poh Cheu (KPT Coffee Shop),Selected Restaurants,$,Street Food,1.28535,103.80339,the coffee bean & tea leaf (singapore) pte ltd,A
+r&b express,R&B Express,Selected Restaurants,$,Street Food,1.3122041,103.8396372,r e & s enterprises pte ltd,A
+hock seng choon fish ball kway teow mee,Hock Seng Choon Fish Ball Kway Teow Mee,Selected Restaurants,$,Street Food,1.3203827,103.9351611,arcade fish soup pte. ltd.,A
+sheng seng fried prawn noodle,Sheng Seng Fried Prawn Noodle,Selected Restaurants,$,Street Food,1.3162872,103.8499262,lim chong seng,B
+allauddin's briyani,Allauddin's Briyani,Selected Restaurants,$,Street Food,1.3060542,103.8508753,allauddin's briyani pte ltd,C
+jiang-nan chun,Jiang-Nan Chun,Selected Restaurants,$$$,Cantonese,1.304937,103.8288,hong kong street old chun kee pte. ltd.,B
+hokkien street bak kut teh,Hokkien Street Bak Kut Teh,Selected Restaurants,$,Street Food,1.2853017,103.8457225,authentic hock lam street popular beef kuay teow pte ltd,A
+leon kee claypot pork rib soup,Leon Kee Claypot Pork Rib Soup,Selected Restaurants,$,Street Food,1.2863927,103.8044724,soup fair pte. ltd.,A
+tambuah mas (orchard),Tambuah Mas (Orchard),Selected Restaurants,$$,Indonesian,1.3036065,103.8349852,mas millennium (singapore) private limited,A
+unforgettable carrot cake,Unforgettable Carrot Cake,Selected Restaurants,$,Street Food,1.2856834,103.8222026,bedok nth 85 fried oyster carrot cake llp,B
+la d'oro,La D'Oro,Selected Restaurants,$$$,Italian Contemporary,1.3022251,103.8361885,d&n singapore pte. ltd.,A
+hokkien man hokkien mee,Hokkien Man Hokkien Mee,Selected Restaurants,$,Street Food,1.3352503,103.8565087,common man coffee roasters pte. ltd.,A
+zheng zhi wen ji pig's organ soup,Zheng Zhi Wen Ji Pig's Organ Soup,Selected Restaurants,$,Street Food,1.313468,103.76461,the soup spoon pte ltd,A
+sushi yuki,Sushi Yuki,Selected Restaurants,$$$,Sushi,1.301895,103.8495012,tatsu sushi (s) pte ltd,A
+ce soir,Ce Soir,Selected Restaurants,$$$,Asian Contemporary,1.2942933,103.7960641,,
+esquina,Esquina,Selected Restaurants,$$,Spanish,1.2799309,103.8420297,,
+gunther's,Gunther's,Selected Restaurants,$$$,French Contemporary,1.296602,103.8549,seafood paradise (s) pte. ltd.,A
+fleur de sel,Fleur de Sel,Selected Restaurants,$$,French,1.2777778,103.84417,fleur de sel le restaurant pte. ltd.,A
+heng long bbq chicken rice,Heng Long BBQ Chicken Rice,Selected Restaurants,$,Street Food,1.2932654,103.8028365,lau di fang scissors-cut curry rice pte. ltd.,A
+rempapa,Rempapa,Selected Restaurants,$,South East Asian,1.2896985,103.8512862,,
+claudine,Claudine,Selected Restaurants,$$,French,1.3048538,103.8134286,tan yin tzer claudine,A
+chomp chomp satay,Chomp Chomp Satay,Selected Restaurants,$,Street Food,1.3642842,103.8664665,syifa' satay limited liability partnership,
+new world mutton soup,New World Mutton Soup,Selected Restaurants,$,Street Food,1.324706,103.9306438,soup restaurant singapore pte. ltd.,A
+hock hai (hong lim) curry chicken noodle,Hock Hai (Hong Lim) Curry Chicken Noodle,Selected Restaurants,$,Street Food,1.324642,103.9306401,gan hock lim,A
+ann chin handmade popiah,Ann Chin Handmade Popiah,Selected Restaurants,$,Street Food,1.2820232,103.8433404,chin boon fah,A
+singapore famous rojak,Singapore Famous Rojak,Selected Restaurants,$,Street Food,1.3008879,103.8543306,cold storage singapore (1983) pte ltd,A
+gordon grill,Gordon Grill,Selected Restaurants,$$,European Contemporary,1.3088935,103.8343348,market grill pte. ltd,A
+ibid,Ibid,Selected Restaurants,$$$,Innovative,1.2863152,103.848305,project ibid pte. ltd.,A
+mustard,Mustard,Selected Restaurants,$$,Indian,1.307995,103.850682,,
+open farm community,Open Farm Community,Selected Restaurants,$$,International,1.305662,103.8161,open farm community pte ltd,A
+sin hoi sai (tiong bahru),Sin Hoi Sai (Tiong Bahru),Selected Restaurants,$$,Seafood,1.2847942,103.8341,mah hock tiong,B
+jade palace,Jade Palace,Selected Restaurants,$$,Seafood,1.3059609,103.828514,crystal jade palace restaurant pte ltd?,A
+national kitchen,National Kitchen,Selected Restaurants,$$,Singaporean,1.2896,103.85155,kitchen language pte. ltd.,A
+luke's,Luke's,Selected Restaurants,$$,Steakhouse,1.282271,103.8472284,seafood paradise (s) pte. ltd.,A
+zhang ji shanghai la mian xiao long bao,Zhang Ji Shanghai La Mian Xiao Long Bao,Selected Restaurants,$,Street Food,1.2859524,103.8042849,gao ji food (s) pte ltd,A
+hup hong chicken rice,Hup Hong Chicken Rice,Selected Restaurants,$,Street Food,1.3436675,103.7376637,texas chicken restaurant pte. ltd.,A
+foc (central),Foc (Central),Selected Restaurants,$$,Spanish,1.2803032,103.8416179,central perk pte. ltd.,A
+da po,Da Po,Selected Restaurants,$,Street Food,1.3029969,103.8639417,da paolo group pte. ltd.,A
+osteria mozza,Osteria Mozza,Selected Restaurants,$$,Italian,1.3022687,103.8359587,osteria italia pte. ltd.,A
+maxwell fuzhou oyster cake,Maxwell Fuzhou Oyster Cake,Selected Restaurants,$,Street Food,1.28033,103.84473,bedok nth 85 fried oyster carrot cake llp,B
+toa payoh 93 soon kueh,Toa Payoh 93 Soon Kueh,Selected Restaurants,$,Street Food,1.32144,103.870173,mouth restaurant (toa payoh) pte ltd,A
+mellben seafood (ang mo kio),Mellben Seafood (Ang Mo Kio),Selected Restaurants,$$,Seafood,1.36839,103.83717,forum seafood village restaurant pte. ltd.,B
+straits chinese (cecil street),Straits Chinese (Cecil Street),Selected Restaurants,$$,Peranakan,1.2803461,103.8489224,authentic hock lam street popular beef kuay teow pte ltd,A
+shanyuan teochew kway teow mian,Shanyuan Teochew Kway Teow Mian,Selected Restaurants,$,Street Food,1.3058048,103.8636367,authentic hock lam street popular beef kuay teow pte ltd,A
+nyonya chendol,Nyonya Chendol,Selected Restaurants,$,Street Food,1.4318534,103.8279828,nyonya binte mohamed shah,B
+fu he turtle soup,Fu He Turtle Soup,Selected Restaurants,$,Street Food,1.3075565,103.8568638,soup restaurant singapore pte. ltd.,A
+butcher's block,Butcher's Block,Selected Restaurants,$$$,Meats and Grills,1.2953284,103.8538526,seafood paradise (s) pte. ltd.,A
+sushi masaaki,Sushi Masaaki,Selected Restaurants,$$$$,Sushi,1.2939051,103.855084,tatsu sushi (s) pte ltd,A
+les amis,Les Amis,3 Stars,$$$$,French,1.30626,103.83204,les amis holding pte ltd,A
+odette,Odette,3 Stars,$$$$,French Contemporary,1.2896459,103.8516,odette restaurant pte. ltd.,A
+zén,Zén,3 Stars,$$$$,European Contemporary,1.2796271,103.84042,maznah bte majid,B
+cloudstreet,Cloudstreet,2 Stars,$$$$,Innovative,1.280977,103.8470099,,
+sushi sakuta,Sushi Sakuta,2 Stars,$$$$,Sushi,1.2943463,103.8506988,tatsu sushi (s) pte ltd,A
+thevar,Thevar,2 Stars,$$$$,Innovative,1.29362,103.841477,palaniappa thevar subbaiah,B
+jaan by kirk westaway,Jaan by Kirk Westaway,2 Stars,$$$,British Contemporary,1.293387,103.85314,the soul kitchen by big d pte. ltd.,A
+saint pierre,Saint Pierre,2 Stars,$$$$,French Contemporary,1.2862377,103.854219,saint pierre pte ltd,A
+meta,Meta,2 Stars,$$$,Innovative,1.29391,103.8417604,meta restaurant pte. ltd.,A
+shoukouwa,Shoukouwa,2 Stars,$$$$,Sushi,1.2863698,103.854,shoukouwa restaurant pte. ltd.,A
+lerouy,Lerouy,1 Star,$$$,French Contemporary,1.293924,103.841922,,
+hill street tai hwa pork noodle,Hill Street Tai Hwa Pork Noodle,1 Star,$,Street Food,1.3052,103.8624,hill street tai hwa pork noodle pte ltd,B
+iggy's,Iggy's,1 Star,$$$,European Contemporary,1.3059244,103.8293379,iggy's pte ltd,A
+waku ghin,Waku Ghin,1 Star,$$$$,Japanese Contemporary,1.283175,103.8598,,
+ma cuisine,Ma Cuisine,1 Star,$$$,French,1.2782652,103.8418934,ma cuisine pte. ltd.,A
+nouri,Nouri,1 Star,$$$$,Innovative,1.28086,103.84713,nourish pte. ltd.,A
+summer pavilion,Summer Pavilion,1 Star,$$,Cantonese,1.291284,103.8603,royal pavilion hospitality consultancy pte. ltd.,A
+cut,CUT,1 Star,$$$,Steakhouse,1.2857261,103.8597843,the daily cut pte. ltd.,A
+shisen hanten,Shisen Hanten,1 Star,$$,"Sichuan, Cantonese",1.302395,103.8365,,
+sushi ichi,Sushi Ichi,1 Star,$$$$,Sushi,1.305105,103.8324,ginza sushi ichi pte. ltd.,A
+burnt ends,Burnt Ends,1 Star,$$$,Barbecue,1.3048886,103.8086664,burnt ends restaurant pte ltd,
+labyrinth,Labyrinth,1 Star,$$$,"Innovative, Singaporean",1.2897489,103.8563,labyrinth food pte. ltd.,A
+imperial treasure fine teochew cuisine (orchard),Imperial Treasure Fine Teochew Cuisine (Orchard),1 Star,$$,Teochew,1.304144,103.83147,artemis fine foods a.s. pte ltd,A
+chaleur,Chaleur,1 Star,$$$,Innovative,1.279252,103.842122,,
+araya,Araya,1 Star,$$$$,"Innovative, Chilean",1.278868,103.841816,narayama japan food pte ltd,
+buona terra,Buona Terra,1 Star,$$$,Italian Contemporary,1.3107414,103.8348231,99 buona vista kitchen pte. ltd.,B
+pangium,Pangium,1 Star,$$$,Peranakan,1.3143675,103.8092377,,
+candlenut,Candlenut,1 Star,$$,Peranakan,1.3058588,103.8100724,candlenut kitchen pte. ltd.,A
+jag,Jag,1 Star,$$$,French Contemporary,1.29094,103.84028,jag restaurants pte. ltd.,A
+willow,Willow,1 Star,$$$,Asian Contemporary,1.2874604,103.8473514,,
+hamamoto,Hamamoto,1 Star,$$$$,Sushi,1.2779413,103.8441838,,
+whitegrass,Whitegrass,1 Star,$$$,French Contemporary,1.2955388,103.8519798,,
+summer palace,Summer Palace,1 Star,$$$,Cantonese,1.3046521,103.8247494,palace marina pte. ltd.,
+born,Born,1 Star,$$$$,Innovative,1.2803952,103.843918,borneo properties sdn. bhd.,A
+seroja,Seroja,1 Star,$$$,"Malaysian, Contemporary",1.2998671,103.858076,,
+marguerite,Marguerite,1 Star,$$$,European Contemporary,1.2849725,103.8639515,,
+nae:um,Nae:um,1 Star,$$$,Korean Contemporary,1.28033,103.84755,,
+lei garden,Lei Garden,1 Star,$$,Cantonese,1.29538,103.85162,lei garden restaurant pte ltd,B
+ingleside,Ingleside,Selected Restaurants,$$,European Contemporary,1.2782014,103.8446191,,
+station by kotuwa,Station by Kotuwa,Selected Restaurants,$$,Sri Lankan,1.2812755,103.8485355,cu mr food station pte. ltd.,
+les ducs,Les Ducs,Selected Restaurants,$$,French,1.2816591,103.8454053,les bouchons pte. ltd.,A
+magpie,Magpie,Selected Restaurants,$$,Contemporary,1.2849632,103.8332262,,
+hayop,Hayop,Selected Restaurants,$$,"Filipino, Contemporary",1.2817671,103.8474694,,
+belimbing,Belimbing,Selected Restaurants,$$,"Innovative, Singaporean",1.3008122,103.8601196,li li,A
+dill,Dill,Selected Restaurants,$$,Scandinavian,1.2790267,103.8434029,faizah binte padillah,A
+jin ting wan,Jin Ting Wan,Selected Restaurants,$$$$,Cantonese,1.2823222,103.858496,jin fine dining pte. ltd.,A
+gaston,Gaston,Selected Restaurants,$$,French,1.2798386,103.8414273,gaston pte. ltd.,A
+rajarani thosai,Rajarani Thosai,Selected Restaurants,$,Street Food,1.3454596,103.9445598,,
+yi pin wei braised duck．kway chap,Yi Pin Wei Braised Duck．Kway Chap,Selected Restaurants,$,Street Food,1.3454935,103.944715,shang pin pte. ltd.,A
+yummy sarawak kolo mee,Yummy Sarawak Kolo Mee,Selected Restaurants,$,Street Food,1.345531,103.9447526,chilli pan mee (batu rd) pte. ltd.,B

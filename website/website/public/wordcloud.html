@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review Word Cloud – Singapore Michelin Guide</title>
+  <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #ffffff;
+      color: #2B2B2B;
+      overflow: hidden; /* no page-level scrollbar */
+    }
+
+    /* header */
+    .wc-header {
+      background: #F9F8F6;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 18px 28px 14px;
+    }
+    .wc-header h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #C8102E;
+      margin-bottom: 3px;
+    }
+    .wc-header p {
+      font-size: 0.78rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    /* controls */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 28px;
+      border-bottom: 1px solid #e5e5e5;
+      background: #fff;
+    }
+    .control-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #aaa;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* custom dropdown */
+    .dd-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 0;
+      max-width: 520px;
+      user-select: none;
+    }
+    .dd-selected {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 36px 8px 12px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.88rem;
+      color: #2B2B2B;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .dd-selected:hover { border-color: #C8102E; }
+    .dd-selected.open  { border-color: #C8102E; box-shadow: 0 0 0 3px rgba(200,16,46,0.1); }
+    .dd-arrow {
+      position: absolute;
+      right: 11px; top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #aaa;
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+    }
+    .dd-selected.open ~ .dd-arrow { transform: translateY(-50%) rotate(180deg); }
+
+    .dd-menu {
+      display: none;
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0; right: 0;
+      background: #fff;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 6px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+      z-index: 999;
+      max-height: 320px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .dd-menu.open { display: block; }
+
+    .dd-group-label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 12px 5px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #aaa;
+      border-top: 1px solid #f0f0f0;
+      background: #fafafa;
+    }
+    .dd-group-label:first-child { border-top: none; }
+
+    .dd-item {
+      padding: 7px 12px 7px 22px;
+      font-size: 0.85rem;
+      color: #2B2B2B;
+      cursor: pointer;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      transition: background 0.1s;
+    }
+    .dd-item:hover    { background: #fff0f2; color: #C8102E; }
+    .dd-item.active   { background: #fde8eb; color: #C8102E; font-weight: 600; }
+
+    /* tier accent bar on the left */
+    .dd-item[data-award="3 Stars"]             { border-left: 3px solid #C8102E; }
+    .dd-item[data-award="2 Stars"]             { border-left: 3px solid #C8102E; }
+    .dd-item[data-award="1 Star"]              { border-left: 3px solid #C8102E; }
+    .dd-item[data-award="Bib Gourmand"]        { border-left: 3px solid #e0a020; }
+    .dd-item[data-award="Selected Restaurants"]{ border-left: 3px solid #555; }
+    .dd-item[data-award="Not Awarded Any Yet"] { border-left: 3px solid #ddd; }
+    .dd-item[data-award="all"]                 { border-left: 3px solid #C8102E; }
+
+    /* Michelin PNG icons */
+    .mi-icon       { display:inline-block; vertical-align:middle; height:14px; width:auto; }
+    .mi-icon-white { filter: brightness(0) invert(1); }
+    .mi-icon + .mi-icon { margin-left: 2px; }
+
+    /* award badge */
+    .award-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px 5px 9px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .badge-stars   { background: #C8102E; color: white; }
+    .badge-bib     { background: #e0a020; color: white; }
+    .badge-selected{ background: #333;    color: white; }
+    .badge-all     { background: #eee;    color: #666;  }
+    .badge-none    { background: #eee;    color: #666;  }
+
+    /* canvas area */
+    .wc-area {
+      position: relative;
+      padding: 16px 28px 12px;
+    }
+    #wc-canvas {
+      display: block;
+      width: 100%;
+      border-radius: 6px;
+    }
+    #wc-loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.92);
+      border-radius: 6px;
+      gap: 10px;
+      font-size: 0.82rem;
+      color: #aaa;
+    }
+    #wc-loading.hidden { display: none; }
+    .spinner {
+      width: 30px; height: 30px;
+      border: 3px solid #f0dde0;
+      border-top-color: #C8102E;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+
+<div class="wc-header">
+  <h2>Customer Review Word Cloud</h2>
+  <p>Most frequently mentioned words in Google reviews. Select a restaurant or view all.</p>
+</div>
+
+<div class="controls">
+  <span class="control-label">Restaurant</span>
+
+  <!-- Custom dropdown -->
+  <div class="dd-wrap" id="dd-wrap">
+    <div class="dd-selected" id="dd-selected" tabindex="0">
+      <span id="dd-label">All Restaurants</span>
+    </div>
+    <span class="dd-arrow" id="dd-arrow">▾</span>
+    <div class="dd-menu" id="dd-menu"></div>
+  </div>
+
+  <span id="award-badge" class="award-badge badge-all">
+    <span class="badge-icon"></span>
+    <span class="badge-text">All</span>
+  </span>
+</div>
+
+<div class="wc-area">
+  <canvas id="wc-canvas" height="480"></canvas>
+  <div id="wc-loading">
+    <div class="spinner"></div>
+    <span>Loading…</span>
+  </div>
+</div>
+
+<script>
+(function () {
+  // state
+  let ALL_DATA      = null;
+  let currentPlace  = '__all__';
+
+  const ddWrap    = document.getElementById('dd-wrap');
+  const ddSelected= document.getElementById('dd-selected');
+  const ddLabel   = document.getElementById('dd-label');
+  const ddMenu    = document.getElementById('dd-menu');
+  const badge     = document.getElementById('award-badge');
+  const wcCanvas  = document.getElementById('wc-canvas');
+  const loading   = document.getElementById('wc-loading');
+
+  // Set canvas pixel width to container width
+  function setCanvasSize() {
+    const w = wcCanvas.parentElement.clientWidth - 56; // account for 28px padding each side
+    wcCanvas.width  = Math.max(400, w);
+    wcCanvas.height = Math.round(wcCanvas.width * 0.52);
+    wcCanvas.style.height = wcCanvas.height + 'px';
+  }
+
+  // load data
+  fetch('./wordcloud_data.json')
+    .then(r => r.json())
+    .then(data => {
+      ALL_DATA = data;
+      buildMenu(data.restaurants);
+      loading.classList.add('hidden');
+      setCanvasSize();
+      renderWordCloud('__all__');
+    })
+    .catch(() => {
+      loading.innerHTML = '<span style="color:#C8102E">Failed to load data.</span>';
+    });
+
+  // build custom dropdown
+  const GROUPS = [
+    { award: '3 Stars',              label: 'Three Stars',          stars: 3, color: '#C8102E' },
+    { award: '2 Stars',              label: 'Two Stars',            stars: 2, color: '#C8102E' },
+    { award: '1 Star',               label: 'One Star',             stars: 1, color: '#C8102E' },
+    { award: 'Bib Gourmand',         label: 'Bib Gourmand',         stars: 0, color: '#e0a020' },
+    { award: 'Selected Restaurants', label: 'Selected Restaurants', stars: 0, color: '#555'    },
+    { award: 'Not Awarded Any Yet',  label: 'All Other Restaurants',stars: 0, color: '#bbb'    },
+  ];
+
+  const ICONS = {
+    star:     './michelin_icons/michelin-star.png',
+    bib:      './michelin_icons/bib-gourmand.png',
+    selected: './michelin_icons/selected-restaurants.png',
+    none:     './michelin_icons/not-awarded-any-yet.png',
+  };
+
+  function iconImg(src, whiteFilter) {
+    const cls = 'mi-icon' + (whiteFilter ? ' mi-icon-white' : '');
+    return `<img src="${src}" class="${cls}" alt="">`;
+  }
+
+  function starImgs(n, whiteFilter) {
+    return Array.from({length: n}, () => iconImg(ICONS.star, whiteFilter)).join('');
+  }
+
+  function groupIcon(g) {
+    if (g.stars > 0)                        return starImgs(g.stars, false);
+    if (g.award === 'Bib Gourmand')         return iconImg(ICONS.bib,      false);
+    if (g.award === 'Selected Restaurants') return iconImg(ICONS.selected,  false);
+    return iconImg(ICONS.none, false);
+  }
+
+  function buildMenu(restaurants) {
+    // "All Restaurants" at top
+    const allItem = makeItem('__all__', 'All Restaurants', null);
+    allItem.classList.add('active');
+    ddMenu.appendChild(allItem);
+
+    const buckets = {};
+    GROUPS.forEach(g => { buckets[g.award] = []; });
+    restaurants.forEach(r => {
+      if (buckets[r.award]) buckets[r.award].push(r);
+    });
+
+    GROUPS.forEach(g => {
+      const items = buckets[g.award];
+      if (!items.length) return;
+
+      const grpLabel = document.createElement('div');
+      grpLabel.className = 'dd-group-label';
+      grpLabel.innerHTML = groupIcon(g) + `<span>${g.label}</span>`;
+      ddMenu.appendChild(grpLabel);
+
+      items.forEach(r => {
+        ddMenu.appendChild(makeItem(r.id, r.name, r.award));
+      });
+    });
+  }
+
+  function makeItem(id, name, award) {
+    const el = document.createElement('div');
+    el.className = 'dd-item';
+    el.textContent = name;
+    el.dataset.id = id;
+    el.dataset.award = award || 'all';
+    el.addEventListener('click', () => selectItem(id, name, award));
+    return el;
+  }
+
+  function selectItem(id, name, award) {
+    currentPlace = id;
+    ddLabel.textContent = name;
+    ddSelected.classList.remove('open');
+    ddMenu.classList.remove('open');
+    // update active highlight
+    ddMenu.querySelectorAll('.dd-item').forEach(el => {
+      el.classList.toggle('active', el.dataset.id === id);
+    });
+    renderWordCloud(id);
+  }
+
+  // dropdown open/close
+  ddSelected.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = ddSelected.classList.toggle('open');
+    ddMenu.classList.toggle('open', open);
+  });
+  document.addEventListener('click', () => {
+    ddSelected.classList.remove('open');
+    ddMenu.classList.remove('open');
+  });
+  ddMenu.addEventListener('click', e => e.stopPropagation());
+
+  // badge
+  const BADGE = {
+    '3 Stars':             { cls: 'badge-stars',    icon: () => starImgs(3, true),           text: '3 Stars'      },
+    '2 Stars':             { cls: 'badge-stars',    icon: () => starImgs(2, true),           text: '2 Stars'      },
+    '1 Star':              { cls: 'badge-stars',    icon: () => starImgs(1, true),           text: '1 Star'       },
+    'Bib Gourmand':        { cls: 'badge-bib',      icon: () => iconImg(ICONS.bib,      true), text: 'Bib Gourmand' },
+    'Selected Restaurants':{ cls: 'badge-selected', icon: () => iconImg(ICONS.selected, true), text: 'Selected'   },
+    'Not Awarded Any Yet': { cls: 'badge-none',     icon: () => iconImg(ICONS.none,     false),text: 'Not Awarded' },
+  };
+
+  function updateBadge(award) {
+    const cfg = award ? BADGE[award] : null;
+    if (!cfg) {
+      badge.className = 'award-badge badge-all';
+      badge.querySelector('.badge-icon').innerHTML = iconImg(ICONS.star, false);
+      badge.querySelector('.badge-text').textContent = 'All';
+      return;
+    }
+    badge.className = `award-badge ${cfg.cls}`;
+    badge.querySelector('.badge-icon').innerHTML = cfg.icon();
+    badge.querySelector('.badge-text').textContent = cfg.text;
+  }
+
+  // render
+  function renderWordCloud(placeId) {
+    if (!ALL_DATA) return;
+    const entry = ALL_DATA.data[placeId];
+    if (!entry) return;
+
+    updateBadge(entry.award);
+    showLoading(true);
+
+    const words = entry.words;
+    if (!words || words.length === 0) {
+      showLoading(false);
+      const ctx = wcCanvas.getContext('2d');
+      ctx.clearRect(0, 0, wcCanvas.width, wcCanvas.height);
+      ctx.fillStyle = '#ccc';
+      ctx.font = '16px Segoe UI';
+      ctx.textAlign = 'center';
+      ctx.fillText('No review data available.', wcCanvas.width / 2, wcCanvas.height / 2);
+      return;
+    }
+
+    const maxCount = Math.max(...words.map(w => w[1]));
+    const area     = wcCanvas.width * wcCanvas.height;
+    const scale    = Math.sqrt(area / (900 * 480));
+
+    WordCloud(wcCanvas, {
+      list:          words,
+      weightFactor:  count => Math.max(10, Math.pow(count / maxCount, 0.5) * 80 * scale),
+      fontFamily:    "'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      color:         colorFn(entry.award, placeId === '__all__'),
+      rotateRatio:   0,          // no tilted words
+      backgroundColor: '#ffffff',
+      clearCanvas:   true,
+      shrinkToFit:   true,
+      minSize:       8,
+      gridSize:      Math.round(8 * scale),
+    });
+
+    showLoading(false);
+  }
+
+  // color
+  function colorFn(award, isAll) {
+    const red  = ['#C8102E','#a30d26','#e8314e','#8b0a1e','#d44060'];
+    const gold = ['#c8860a','#e0a020','#a06000','#d4a030','#8b5500'];
+    const dark = ['#2B2B2B','#444','#666','#333','#555'];
+    const gray = ['#888','#aaa','#999','#777','#bbb'];
+
+    let p;
+    if (isAll || !award || award === '3 Stars' || award === '2 Stars' || award === '1 Star') p = red;
+    else if (award === 'Bib Gourmand')           p = gold;
+    else if (award === 'Selected Restaurants')   p = dark;
+    else                                          p = gray;
+
+    return () => p[Math.floor(Math.random() * p.length)];
+  }
+
+  function showLoading(show) {
+    loading.classList.toggle('hidden', !show);
+    if (show) loading.innerHTML = '<div class="spinner"></div><span>Generating…</span>';
+  }
+
+  window.addEventListener('resize', () => {
+    setCanvasSize();
+    renderWordCloud(currentPlace);
+  });
+})();
+</script>
+</body>
+</html>
