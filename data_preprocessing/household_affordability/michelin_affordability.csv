@@ -1,0 +1,21 @@
+﻿Quintile,Quintile Rank,Monthly Household Income ($),Annual Household Income ($),Price Tier,Price Tier Label,Estimated Cost Per Pax ($),Monthly Restaurant Budget ($),Meals Affordable / Month (from restaurant budget),Annual Restaurant Budget ($),Annual Meals Affordable (from restaurant budget),Cost Per Meal as % of Monthly Income,Affordability
+1st-20th (Lowest),1,3254.0,39048,1,"$ (~$20/pax, Hawker/Kopitiam)",20,99.5,5.0,1194,60.0,0.61,Very Affordable
+21st-40th,2,7961.0,95532,1,"$ (~$20/pax, Hawker/Kopitiam)",20,148.8,7.4,1786,89.0,0.25,Very Affordable
+41st-60th,3,13058.0,156696,1,"$ (~$20/pax, Hawker/Kopitiam)",20,280.8,14.0,3370,168.0,0.15,Very Affordable
+61st-80th,4,18751.0,225012,1,"$ (~$20/pax, Hawker/Kopitiam)",20,400.6,20.0,4807,240.0,0.11,Very Affordable
+81st-100th (Highest),5,34341.0,412092,1,"$ (~$20/pax, Hawker/Kopitiam)",20,669.8,33.5,8038,402.0,0.06,Very Affordable
+1st-20th (Lowest),1,3254.0,39048,2,"$$ (~$60/pax, Casual Dining)",60,99.5,1.7,1194,20.0,1.84,Affordable
+21st-40th,2,7961.0,95532,2,"$$ (~$60/pax, Casual Dining)",60,148.8,2.5,1786,30.0,0.75,Very Affordable
+41st-60th,3,13058.0,156696,2,"$$ (~$60/pax, Casual Dining)",60,280.8,4.7,3370,56.0,0.46,Very Affordable
+61st-80th,4,18751.0,225012,2,"$$ (~$60/pax, Casual Dining)",60,400.6,6.7,4807,80.0,0.32,Very Affordable
+81st-100th (Highest),5,34341.0,412092,2,"$$ (~$60/pax, Casual Dining)",60,669.8,11.2,8038,134.0,0.17,Very Affordable
+1st-20th (Lowest),1,3254.0,39048,3,"$$$ (~$120/pax, Fine Dining)",120,99.5,0.8,1194,10.0,3.69,Moderate
+21st-40th,2,7961.0,95532,3,"$$$ (~$120/pax, Fine Dining)",120,148.8,1.2,1786,15.0,1.51,Affordable
+41st-60th,3,13058.0,156696,3,"$$$ (~$120/pax, Fine Dining)",120,280.8,2.3,3370,28.0,0.92,Very Affordable
+61st-80th,4,18751.0,225012,3,"$$$ (~$120/pax, Fine Dining)",120,400.6,3.3,4807,40.0,0.64,Very Affordable
+81st-100th (Highest),5,34341.0,412092,3,"$$$ (~$120/pax, Fine Dining)",120,669.8,5.6,8038,67.0,0.35,Very Affordable
+1st-20th (Lowest),1,3254.0,39048,4,"$$$$ (~$250/pax, Ultra-Premium)",250,99.5,0.4,1194,5.0,7.68,Expensive
+21st-40th,2,7961.0,95532,4,"$$$$ (~$250/pax, Ultra-Premium)",250,148.8,0.6,1786,7.0,3.14,Moderate
+41st-60th,3,13058.0,156696,4,"$$$$ (~$250/pax, Ultra-Premium)",250,280.8,1.1,3370,13.0,1.91,Affordable
+61st-80th,4,18751.0,225012,4,"$$$$ (~$250/pax, Ultra-Premium)",250,400.6,1.6,4807,19.0,1.33,Affordable
+81st-100th (Highest),5,34341.0,412092,4,"$$$$ (~$250/pax, Ultra-Premium)",250,669.8,2.7,8038,32.0,0.73,Very Affordable

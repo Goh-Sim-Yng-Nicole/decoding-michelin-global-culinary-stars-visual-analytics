@@ -1,0 +1,6 @@
+﻿Quintile Rank,Quintile Label,Percentile Band,Income Range Min ($/mth),Income Range Max ($/mth),Avg Monthly Household Income ($),Avg Annual Household Income ($),Avg Monthly Restaurant Budget ($),Avg Annual Restaurant Budget ($),Avg Monthly Total Eating Out ($),Avg Annual Total Eating Out ($),Restaurant Budget as % of Income
+1,Bottom 20%,1st-20th (Lowest),0,5607,3254.0,39048,99.5,1194,516.9,6203,3.1
+2,Lower-Mid 20%,21st-40th,5608,10509,7961.0,95532,148.8,1786,769.5,9234,1.9
+3,Middle 20%,41st-60th,10510,15904,13058.0,156696,280.8,3370,1017.4,12209,2.2
+4,Upper-Mid 20%,61st-80th,15905,26546,18751.0,225012,400.6,4807,1148.8,13786,2.1
+5,Top 20%,81st-100th (Highest),26547,">$26,546",34341.0,412092,669.8,8038,1376.1,16513,2.0

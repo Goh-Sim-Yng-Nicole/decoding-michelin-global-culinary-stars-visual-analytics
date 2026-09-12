@@ -1,0 +1,10 @@
+{
+  "name": "singapore-michelin-data-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix website",
+    "build": "npm run build --prefix website",
+    "preview": "npm run preview --prefix website",
+    "install:all": "npm install --prefix website"
+  }
+}

@@ -1,0 +1,5 @@
+﻿Price Tier,Number of Restaurants,Avg Value Score,Avg Service Score,Avg Taste Score,Avg Review Rating,Price Tier Label,Estimated Cost Per Pax ($),Pct of Michelin Restaurants (%)
+1,157,0.696,0.513,0.842,3.802,"$ (~$20/pax, Hawker/Kopitiam)",20,53.6
+2,76,0.716,0.739,0.892,4.345,"$$ (~$60/pax, Casual Dining)",60,25.9
+3,38,0.687,0.8,0.928,4.564,"$$$ (~$120/pax, Fine Dining)",120,13.0
+4,22,0.647,0.79,0.902,4.598,"$$$$ (~$250/pax, Ultra-Premium)",250,7.5
